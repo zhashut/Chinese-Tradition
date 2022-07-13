@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18068CF1286C0C0200D38371 /* 牛郎织女.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 18068CF0286C0C0200D38371 /* 牛郎织女.rcproject */; };
+		183C916B287007C800CCFA7A /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C916A287007C800CCFA7A /* ImagePickerController.swift */; };
+		183F38CB286D386400F1BDB5 /* 放烟花.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 183F38CA286D386400F1BDB5 /* 放烟花.rcproject */; };
+		183F38CD286D38B900F1BDB5 /* LightFireworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F38CC286D38B900F1BDB5 /* LightFireworks.swift */; };
+		18409FD0286D8CCB006F87E4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18409FCF286D8CCA006F87E4 /* Launch Screen.storyboard */; };
+		18409FD7286DA030006F87E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18409FD6286DA030006F87E4 /* Main.storyboard */; };
+		18409FD9286DA0AF006F87E4 /* DragonBoatRaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409FD8286DA0AF006F87E4 /* DragonBoatRaceViewController.swift */; };
+		18409FDB286DA1D7006F87E4 /* CoupleMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409FDA286DA1D7006F87E4 /* CoupleMeetViewController.swift */; };
+		18409FDD286DA284006F87E4 /* LightFireworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18409FDC286DA284006F87E4 /* LightFireworksViewController.swift */; };
+		189CBFBA2868329C00F88528 /* ARGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CBFB92868329C00F88528 /* ARGameView.swift */; };
+		189CBFBC2868C6E400F88528 /* SolarTermsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CBFBB2868C6E400F88528 /* SolarTermsRow.swift */; };
+		18AB56F6286F4E2200D701EC /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB56F5286F4E2200D701EC /* HelpView.swift */; };
+		18BD75DD286F1F8F004DF699 /* SolarTermsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD75DC286F1F8F004DF699 /* SolarTermsData.swift */; };
+		18C9AF40286A016D006AA63B /* DragonBoatRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C9AF3F286A016D006AA63B /* DragonBoatRace.swift */; };
+		18D86F91286C1BC8007C08DF /* 赛龙舟.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 18D86F90286C1BC8007C08DF /* 赛龙舟.rcproject */; };
+		18D86F93286C243F007C08DF /* UIKitActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D86F92286C243F007C08DF /* UIKitActivityIndicatorView.swift */; };
+		18EFCB65286751F400AB8EFE /* Voicebroadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFCB64286751F400AB8EFE /* Voicebroadcast.swift */; };
+		18F07A13286B07C7007B4209 /* CoupleMeet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F07A12286B07C7007B4209 /* CoupleMeet.swift */; };
+		6C26672D285EE9DD005C0EE8 /* UIKitActivityControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26672C285EE9DD005C0EE8 /* UIKitActivityControllerView.swift */; };
+		6C26672F285EEE60005C0EE8 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C26672E285EEE60005C0EE8 /* ShareButton.swift */; };
+		6C2B64152862C43600993F7A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B64142862C43600993F7A /* FavoriteView.swift */; };
+		6C2B64172862C48100993F7A /* FestivalFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B64162862C48100993F7A /* FestivalFavorite.swift */; };
+		6C2B64192862C49300993F7A /* SolarTermsFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B64182862C49300993F7A /* SolarTermsFavorite.swift */; };
+		6C2B64222864059300993F7A /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2B64212864059300993F7A /* Styles.swift */; };
+		6C37D8AC28605A1800A90A5F /* FestivalDetailTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C37D8AB28605A1800A90A5F /* FestivalDetailTag.swift */; };
+		6C400D1E2865A84D0047C822 /* FavoriteAR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C400D1D2865A84D0047C822 /* FavoriteAR.swift */; };
+		6C400D212865AA6E0047C822 /* ARGameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C400D202865AA6E0047C822 /* ARGameRow.swift */; };
+		6C400D232865B0520047C822 /* ARGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C400D222865B0520047C822 /* ARGameList.swift */; };
+		6C77EC792875146D00C366D6 /* FestivalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77EC782875146C00C366D6 /* FestivalData.swift */; };
+		6C77EC842877239100C366D6 /* Poetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77EC832877239100C366D6 /* Poetry.swift */; };
+		6C77EC86287723C500C366D6 /* SpringPoetryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C77EC85287723C500C366D6 /* SpringPoetryGame.swift */; };
+		6C77EC8D2877261600C366D6 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C77EC882877261500C366D6 /* bgm.mp3 */; };
+		6C77EC8E2877261600C366D6 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C77EC892877261500C366D6 /* error.mp3 */; };
+		6C77EC8F2877261600C366D6 /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C77EC8A2877261500C366D6 /* victory.mp3 */; };
+		6C77EC902877261600C366D6 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C77EC8B2877261600C366D6 /* click.mp3 */; };
+		6C77EC912877261600C366D6 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C77EC8C2877261600C366D6 /* correct.mp3 */; };
+		6C9BF88C285C95BC00BB57A0 /* CFestivalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF88B285C95BC00BB57A0 /* CFestivalApp.swift */; };
+		6C9BF890285C95BF00BB57A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9BF88F285C95BF00BB57A0 /* Assets.xcassets */; };
+		6C9BF893285C95BF00BB57A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9BF892285C95BF00BB57A0 /* Preview Assets.xcassets */; };
+		6C9BF89F285C964D00BB57A0 /* SolarTerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF89B285C964D00BB57A0 /* SolarTerms.swift */; };
+		6C9BF8A0285C964D00BB57A0 /* FestivalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF89C285C964D00BB57A0 /* FestivalContent.swift */; };
+		6C9BF8A1285C964D00BB57A0 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF89D285C964D00BB57A0 /* ModelData.swift */; };
+		6C9BF8A2285C964D00BB57A0 /* Festival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF89E285C964D00BB57A0 /* Festival.swift */; };
+		6C9BF8B5285C968400BB57A0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8A4285C968400BB57A0 /* MainView.swift */; };
+		6C9BF8B7285C968400BB57A0 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8A7285C968400BB57A0 /* AccountView.swift */; };
+		6C9BF8B8285C968400BB57A0 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8A9285C968400BB57A0 /* CircleButton.swift */; };
+		6C9BF8B9285C968400BB57A0 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8AA285C968400BB57A0 /* FavoriteButton.swift */; };
+		6C9BF8BA285C968400BB57A0 /* SolarTermsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8AC285C968400BB57A0 /* SolarTermsList.swift */; };
+		6C9BF8BB285C968400BB57A0 /* SolarTermsOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8AD285C968400BB57A0 /* SolarTermsOnly.swift */; };
+		6C9BF8BC285C968400BB57A0 /* SolarTermsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8AE285C968400BB57A0 /* SolarTermsDetail.swift */; };
+		6C9BF8BD285C968400BB57A0 /* FestivalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8B0285C968400BB57A0 /* FestivalCard.swift */; };
+		6C9BF8BE285C968400BB57A0 /* FestivalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8B1285C968400BB57A0 /* FestivalList.swift */; };
+		6C9BF8C0285C968400BB57A0 /* FestivalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8B4285C968400BB57A0 /* FestivalDetailView.swift */; };
+		6C9BF8C4285C9A0F00BB57A0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8C3285C9A0F00BB57A0 /* Profile.swift */; };
+		6C9BF8CD285D87C100BB57A0 /* AccountEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9BF8CC285D87C100BB57A0 /* AccountEditor.swift */; };
+		6CDC1DC528621D6500F17095 /* WebRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC1DC428621D6500F17095 /* WebRow.swift */; };
+		6CDC1DC728621D7600F17095 /* WebAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC1DC628621D7600F17095 /* WebAdd.swift */; };
+		6CDC1DC928621D8400F17095 /* WebEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC1DC828621D8400F17095 /* WebEdit.swift */; };
+		6CDC1DCB28621DD600F17095 /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC1DCA28621DD600F17095 /* Web.swift */; };
+		6CDC1DCD28621DE800F17095 /* WebData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDC1DCC28621DE800F17095 /* WebData.swift */; };
+		6CEF7794285E51C500FBEA27 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF7793285E51C500FBEA27 /* LocationView.swift */; };
+		6CEF7796285E51FD00FBEA27 /* GeocoderTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF7795285E51FD00FBEA27 /* GeocoderTool.swift */; };
+		6CEF7798285E520F00FBEA27 /* LocationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF7797285E520F00FBEA27 /* LocationTool.swift */; };
+		8024E80F28603D1700F46684 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8024E80E28603D1600F46684 /* View+Extension.swift */; };
+		F8655B35287A9C6D00A7B8DC /* QingmPoetryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8655B34287A9C6D00A7B8DC /* QingmPoetryGame.swift */; };
+		F87AFE822877349F00F6638F /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87AFE812877349F00F6638F /* MusicPlayer.swift */; };
+		F87AFE86287739DB00F6638F /* PoetryGameList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87AFE85287739DB00F6638F /* PoetryGameList.swift */; };
+		F87AFE8828773AF400F6638F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87AFE8728773AF400F6638F /* GameView.swift */; };
+		F87AFE8A28775E0D00F6638F /* PoetryGameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87AFE8928775E0D00F6638F /* PoetryGameRow.swift */; };
+		F87AFE8D2877664500F6638F /* ChongyPoetryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87AFE8C2877664500F6638F /* ChongyPoetryGame.swift */; };
+		F87AFE8F287767EE00F6638F /* PoetryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87AFE8E287767EE00F6638F /* PoetryGameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18068CF0286C0C0200D38371 /* 牛郎织女.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "牛郎织女.rcproject"; sourceTree = "<group>"; };
+		183C916A287007C800CCFA7A /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		183F38CA286D386400F1BDB5 /* 放烟花.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "放烟花.rcproject"; sourceTree = "<group>"; };
+		183F38CC286D38B900F1BDB5 /* LightFireworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightFireworks.swift; sourceTree = "<group>"; };
+		18409FCF286D8CCA006F87E4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		18409FD6286DA030006F87E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18409FD8286DA0AF006F87E4 /* DragonBoatRaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBoatRaceViewController.swift; sourceTree = "<group>"; };
+		18409FDA286DA1D7006F87E4 /* CoupleMeetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleMeetViewController.swift; sourceTree = "<group>"; };
+		18409FDC286DA284006F87E4 /* LightFireworksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightFireworksViewController.swift; sourceTree = "<group>"; };
+		189CBFB92868329C00F88528 /* ARGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameView.swift; sourceTree = "<group>"; };
+		189CBFBB2868C6E400F88528 /* SolarTermsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTermsRow.swift; sourceTree = "<group>"; };
+		18AB56F5286F4E2200D701EC /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		18BD75DC286F1F8F004DF699 /* SolarTermsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTermsData.swift; sourceTree = "<group>"; };
+		18C9AF3F286A016D006AA63B /* DragonBoatRace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonBoatRace.swift; sourceTree = "<group>"; };
+		18D86F90286C1BC8007C08DF /* 赛龙舟.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "赛龙舟.rcproject"; sourceTree = "<group>"; };
+		18D86F92286C243F007C08DF /* UIKitActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitActivityIndicatorView.swift; sourceTree = "<group>"; };
+		18EFCB64286751F400AB8EFE /* Voicebroadcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voicebroadcast.swift; sourceTree = "<group>"; };
+		18F07A12286B07C7007B4209 /* CoupleMeet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleMeet.swift; sourceTree = "<group>"; };
+		6C26672C285EE9DD005C0EE8 /* UIKitActivityControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitActivityControllerView.swift; sourceTree = "<group>"; };
+		6C26672E285EEE60005C0EE8 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		6C2B64142862C43600993F7A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		6C2B64162862C48100993F7A /* FestivalFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalFavorite.swift; sourceTree = "<group>"; };
+		6C2B64182862C49300993F7A /* SolarTermsFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarTermsFavorite.swift; sourceTree = "<group>"; };
+		6C2B64212864059300993F7A /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		6C2B64242864145700993F7A /* FZKTJ.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FZKTJ.OTF; sourceTree = "<group>"; };
+		6C37D8AB28605A1800A90A5F /* FestivalDetailTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalDetailTag.swift; sourceTree = "<group>"; };
+		6C400D1D2865A84D0047C822 /* FavoriteAR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAR.swift; sourceTree = "<group>"; };
+		6C400D202865AA6E0047C822 /* ARGameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameRow.swift; sourceTree = "<group>"; };
+		6C400D222865B0520047C822 /* ARGameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameList.swift; sourceTree = "<group>"; };
+		6C77EC782875146C00C366D6 /* FestivalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FestivalData.swift; sourceTree = "<group>"; };
+		6C77EC832877239100C366D6 /* Poetry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poetry.swift; sourceTree = "<group>"; };
+		6C77EC85287723C500C366D6 /* SpringPoetryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringPoetryGame.swift; sourceTree = "<group>"; };
+		6C77EC882877261500C366D6 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		6C77EC892877261500C366D6 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		6C77EC8A2877261500C366D6 /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+		6C77EC8B2877261600C366D6 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		6C77EC8C2877261600C366D6 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		6C9BF888285C95BC00BB57A0 /* CFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9BF88B285C95BC00BB57A0 /* CFestivalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFestivalApp.swift; sourceTree = "<group>"; };
+		6C9BF88F285C95BF00BB57A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C9BF892285C95BF00BB57A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C9BF89B285C964D00BB57A0 /* SolarTerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarTerms.swift; sourceTree = "<group>"; };
+		6C9BF89C285C964D00BB57A0 /* FestivalContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalContent.swift; sourceTree = "<group>"; };
+		6C9BF89D285C964D00BB57A0 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		6C9BF89E285C964D00BB57A0 /* Festival.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Festival.swift; sourceTree = "<group>"; };
+		6C9BF8A4285C968400BB57A0 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6C9BF8A7285C968400BB57A0 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		6C9BF8A9285C968400BB57A0 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		6C9BF8AA285C968400BB57A0 /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		6C9BF8AC285C968400BB57A0 /* SolarTermsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarTermsList.swift; sourceTree = "<group>"; };
+		6C9BF8AD285C968400BB57A0 /* SolarTermsOnly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarTermsOnly.swift; sourceTree = "<group>"; };
+		6C9BF8AE285C968400BB57A0 /* SolarTermsDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarTermsDetail.swift; sourceTree = "<group>"; };
+		6C9BF8B0285C968400BB57A0 /* FestivalCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalCard.swift; sourceTree = "<group>"; };
+		6C9BF8B1285C968400BB57A0 /* FestivalList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalList.swift; sourceTree = "<group>"; };
+		6C9BF8B4285C968400BB57A0 /* FestivalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FestivalDetailView.swift; sourceTree = "<group>"; };
+		6C9BF8C3285C9A0F00BB57A0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		6C9BF8CC285D87C100BB57A0 /* AccountEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountEditor.swift; sourceTree = "<group>"; };
+		6C9BF8CE285D905700BB57A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6CDC1DC428621D6500F17095 /* WebRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRow.swift; sourceTree = "<group>"; };
+		6CDC1DC628621D7600F17095 /* WebAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAdd.swift; sourceTree = "<group>"; };
+		6CDC1DC828621D8400F17095 /* WebEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebEdit.swift; sourceTree = "<group>"; };
+		6CDC1DCA28621DD600F17095 /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		6CDC1DCC28621DE800F17095 /* WebData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebData.swift; sourceTree = "<group>"; };
+		6CEF7793285E51C500FBEA27 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		6CEF7795285E51FD00FBEA27 /* GeocoderTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocoderTool.swift; sourceTree = "<group>"; };
+		6CEF7797285E520F00FBEA27 /* LocationTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTool.swift; sourceTree = "<group>"; };
+		8024E80E28603D1600F46684 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		F8655B34287A9C6D00A7B8DC /* QingmPoetryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QingmPoetryGame.swift; sourceTree = "<group>"; };
+		F87AFE812877349F00F6638F /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		F87AFE85287739DB00F6638F /* PoetryGameList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryGameList.swift; sourceTree = "<group>"; };
+		F87AFE8728773AF400F6638F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F87AFE8928775E0D00F6638F /* PoetryGameRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryGameRow.swift; sourceTree = "<group>"; };
+		F87AFE8C2877664500F6638F /* ChongyPoetryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChongyPoetryGame.swift; sourceTree = "<group>"; };
+		F87AFE8E287767EE00F6638F /* PoetryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetryGameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C9BF885285C95BC00BB57A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18409FD3286D9C9D006F87E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18409FD8286DA0AF006F87E4 /* DragonBoatRaceViewController.swift */,
+				18409FDA286DA1D7006F87E4 /* CoupleMeetViewController.swift */,
+				18409FDC286DA284006F87E4 /* LightFireworksViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18B779442869383B0073E2C6 /* RcProjectFile */ = {
+			isa = PBXGroup;
+			children = (
+				183F38CA286D386400F1BDB5 /* 放烟花.rcproject */,
+				18D86F90286C1BC8007C08DF /* 赛龙舟.rcproject */,
+				18068CF0286C0C0200D38371 /* 牛郎织女.rcproject */,
+			);
+			path = RcProjectFile;
+			sourceTree = "<group>";
+		};
+		18BD75DB286F1F58004DF699 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF89D285C964D00BB57A0 /* ModelData.swift */,
+				6CDC1DCC28621DE800F17095 /* WebData.swift */,
+				18BD75DC286F1F8F004DF699 /* SolarTermsData.swift */,
+				6C77EC782875146C00C366D6 /* FestivalData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		18C9AF3E286A0135006AA63B /* ARViews */ = {
+			isa = PBXGroup;
+			children = (
+				18C9AF3F286A016D006AA63B /* DragonBoatRace.swift */,
+				18F07A12286B07C7007B4209 /* CoupleMeet.swift */,
+				183F38CC286D38B900F1BDB5 /* LightFireworks.swift */,
+			);
+			path = ARViews;
+			sourceTree = "<group>";
+		};
+		6C266730285F0A8B005C0EE8 /* Shares */ = {
+			isa = PBXGroup;
+			children = (
+				6C26672C285EE9DD005C0EE8 /* UIKitActivityControllerView.swift */,
+				6C26672E285EEE60005C0EE8 /* ShareButton.swift */,
+			);
+			path = Shares;
+			sourceTree = "<group>";
+		};
+		6C2B64132862C41800993F7A /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				6C2B64142862C43600993F7A /* FavoriteView.swift */,
+				6C2B64162862C48100993F7A /* FestivalFavorite.swift */,
+				6C2B64182862C49300993F7A /* SolarTermsFavorite.swift */,
+				6C9BF8AA285C968400BB57A0 /* FavoriteButton.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		6C400D1F2865AA2E0047C822 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				F87AFE8728773AF400F6638F /* GameView.swift */,
+				6C77EC812877234000C366D6 /* ARGame */,
+				6C77EC822877235A00C366D6 /* PoetryGames */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		6C77EC812877234000C366D6 /* ARGame */ = {
+			isa = PBXGroup;
+			children = (
+				6C400D222865B0520047C822 /* ARGameList.swift */,
+				6C400D202865AA6E0047C822 /* ARGameRow.swift */,
+				189CBFB92868329C00F88528 /* ARGameView.swift */,
+				18C9AF3E286A0135006AA63B /* ARViews */,
+				18409FD3286D9C9D006F87E4 /* ViewControllers */,
+				18B779442869383B0073E2C6 /* RcProjectFile */,
+				18409FD6286DA030006F87E4 /* Main.storyboard */,
+			);
+			path = ARGame;
+			sourceTree = "<group>";
+		};
+		6C77EC822877235A00C366D6 /* PoetryGames */ = {
+			isa = PBXGroup;
+			children = (
+				F87AFE85287739DB00F6638F /* PoetryGameList.swift */,
+				F87AFE8928775E0D00F6638F /* PoetryGameRow.swift */,
+				F87AFE8E287767EE00F6638F /* PoetryGameView.swift */,
+				F87AFE8B2877642E00F6638F /* PoetryViews */,
+			);
+			path = PoetryGames;
+			sourceTree = "<group>";
+		};
+		6C77EC872877255500C366D6 /* MusicResources */ = {
+			isa = PBXGroup;
+			children = (
+				6C77EC882877261500C366D6 /* bgm.mp3 */,
+				6C77EC8B2877261600C366D6 /* click.mp3 */,
+				6C77EC8C2877261600C366D6 /* correct.mp3 */,
+				6C77EC892877261500C366D6 /* error.mp3 */,
+				6C77EC8A2877261500C366D6 /* victory.mp3 */,
+				F87AFE812877349F00F6638F /* MusicPlayer.swift */,
+			);
+			path = MusicResources;
+			sourceTree = "<group>";
+		};
+		6C9BF87F285C95BB00BB57A0 = {
+			isa = PBXGroup;
+			children = (
+				6C9BF88A285C95BC00BB57A0 /* CFestival */,
+				6C9BF889285C95BC00BB57A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C9BF889285C95BC00BB57A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF888285C95BC00BB57A0 /* CFestival.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9BF88A285C95BC00BB57A0 /* CFestival */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF88B285C95BC00BB57A0 /* CFestivalApp.swift */,
+				8024E80E28603D1600F46684 /* View+Extension.swift */,
+				6C9BF899285C961200BB57A0 /* Views */,
+				6C9BF89A285C962200BB57A0 /* Model */,
+				6C77EC872877255500C366D6 /* MusicResources */,
+				6C9BF8CE285D905700BB57A0 /* Info.plist */,
+				6C9BF88F285C95BF00BB57A0 /* Assets.xcassets */,
+				6C2B64242864145700993F7A /* FZKTJ.OTF */,
+				18409FCF286D8CCA006F87E4 /* Launch Screen.storyboard */,
+				6C9BF891285C95BF00BB57A0 /* Preview Content */,
+			);
+			path = CFestival;
+			sourceTree = "<group>";
+		};
+		6C9BF891285C95BF00BB57A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF892285C95BF00BB57A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C9BF899285C961200BB57A0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF8A3285C968400BB57A0 /* Main */,
+				6C9BF8AF285C968400BB57A0 /* Festivals */,
+				6C9BF8AB285C968400BB57A0 /* SolarTerms */,
+				6C400D1F2865AA2E0047C822 /* Games */,
+				6C9BF8A5285C968400BB57A0 /* Accounts */,
+				6C266730285F0A8B005C0EE8 /* Shares */,
+				6C9BF8CF285DBD8E00BB57A0 /* Locations */,
+				6CDC1DC328621D3F00F17095 /* Web */,
+				6C2B64132862C41800993F7A /* Favorites */,
+				6C9BF8A8285C968400BB57A0 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C9BF89A285C962200BB57A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF89E285C964D00BB57A0 /* Festival.swift */,
+				6C400D1D2865A84D0047C822 /* FavoriteAR.swift */,
+				6C9BF89C285C964D00BB57A0 /* FestivalContent.swift */,
+				6C9BF89B285C964D00BB57A0 /* SolarTerms.swift */,
+				6C9BF8C3285C9A0F00BB57A0 /* Profile.swift */,
+				6CDC1DCA28621DD600F17095 /* Web.swift */,
+				6C77EC832877239100C366D6 /* Poetry.swift */,
+				18BD75DB286F1F58004DF699 /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C9BF8A3285C968400BB57A0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF8A4285C968400BB57A0 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6C9BF8A5285C968400BB57A0 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF8A7285C968400BB57A0 /* AccountView.swift */,
+				6C9BF8CC285D87C100BB57A0 /* AccountEditor.swift */,
+				18AB56F5286F4E2200D701EC /* HelpView.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		6C9BF8A8285C968400BB57A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				18EFCB64286751F400AB8EFE /* Voicebroadcast.swift */,
+				6C9BF8A9285C968400BB57A0 /* CircleButton.swift */,
+				6C2B64212864059300993F7A /* Styles.swift */,
+				18D86F92286C243F007C08DF /* UIKitActivityIndicatorView.swift */,
+				183C916A287007C800CCFA7A /* ImagePickerController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6C9BF8AB285C968400BB57A0 /* SolarTerms */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF8AC285C968400BB57A0 /* SolarTermsList.swift */,
+				189CBFBB2868C6E400F88528 /* SolarTermsRow.swift */,
+				6C9BF8AE285C968400BB57A0 /* SolarTermsDetail.swift */,
+				6C9BF8AD285C968400BB57A0 /* SolarTermsOnly.swift */,
+			);
+			path = SolarTerms;
+			sourceTree = "<group>";
+		};
+		6C9BF8AF285C968400BB57A0 /* Festivals */ = {
+			isa = PBXGroup;
+			children = (
+				6C9BF8B1285C968400BB57A0 /* FestivalList.swift */,
+				6C9BF8B0285C968400BB57A0 /* FestivalCard.swift */,
+				6C37D8AB28605A1800A90A5F /* FestivalDetailTag.swift */,
+				6C9BF8B4285C968400BB57A0 /* FestivalDetailView.swift */,
+			);
+			path = Festivals;
+			sourceTree = "<group>";
+		};
+		6C9BF8CF285DBD8E00BB57A0 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				6CEF7793285E51C500FBEA27 /* LocationView.swift */,
+				6CEF7795285E51FD00FBEA27 /* GeocoderTool.swift */,
+				6CEF7797285E520F00FBEA27 /* LocationTool.swift */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		6CDC1DC328621D3F00F17095 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				6CDC1DC428621D6500F17095 /* WebRow.swift */,
+				6CDC1DC628621D7600F17095 /* WebAdd.swift */,
+				6CDC1DC828621D8400F17095 /* WebEdit.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		F87AFE8B2877642E00F6638F /* PoetryViews */ = {
+			isa = PBXGroup;
+			children = (
+				6C77EC85287723C500C366D6 /* SpringPoetryGame.swift */,
+				F8655B34287A9C6D00A7B8DC /* QingmPoetryGame.swift */,
+				F87AFE8C2877664500F6638F /* ChongyPoetryGame.swift */,
+			);
+			path = PoetryViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9BF887285C95BC00BB57A0 /* CFestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9BF896285C95BF00BB57A0 /* Build configuration list for PBXNativeTarget "CFestival" */;
+			buildPhases = (
+				6C9BF884285C95BC00BB57A0 /* Sources */,
+				6C9BF885285C95BC00BB57A0 /* Frameworks */,
+				6C9BF886285C95BC00BB57A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFestival;
+			productName = CFestival;
+			productReference = 6C9BF888285C95BC00BB57A0 /* CFestival.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C9BF880285C95BB00BB57A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6C9BF887285C95BC00BB57A0 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 6C9BF883285C95BB00BB57A0 /* Build configuration list for PBXProject "CFestival" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C9BF87F285C95BB00BB57A0;
+			productRefGroup = 6C9BF889285C95BC00BB57A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9BF887285C95BC00BB57A0 /* CFestival */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C9BF886285C95BC00BB57A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18409FD0286D8CCB006F87E4 /* Launch Screen.storyboard in Resources */,
+				6C9BF893285C95BF00BB57A0 /* Preview Assets.xcassets in Resources */,
+				6C77EC912877261600C366D6 /* correct.mp3 in Resources */,
+				6C9BF890285C95BF00BB57A0 /* Assets.xcassets in Resources */,
+				6C77EC8F2877261600C366D6 /* victory.mp3 in Resources */,
+				18409FD7286DA030006F87E4 /* Main.storyboard in Resources */,
+				6C77EC902877261600C366D6 /* click.mp3 in Resources */,
+				6C77EC8D2877261600C366D6 /* bgm.mp3 in Resources */,
+				6C77EC8E2877261600C366D6 /* error.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C9BF884285C95BC00BB57A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2B64222864059300993F7A /* Styles.swift in Sources */,
+				6C9BF88C285C95BC00BB57A0 /* CFestivalApp.swift in Sources */,
+				6CDC1DCD28621DE800F17095 /* WebData.swift in Sources */,
+				F87AFE8F287767EE00F6638F /* PoetryGameView.swift in Sources */,
+				6C9BF8BE285C968400BB57A0 /* FestivalList.swift in Sources */,
+				6C26672D285EE9DD005C0EE8 /* UIKitActivityControllerView.swift in Sources */,
+				6C9BF8CD285D87C100BB57A0 /* AccountEditor.swift in Sources */,
+				189CBFBC2868C6E400F88528 /* SolarTermsRow.swift in Sources */,
+				F8655B35287A9C6D00A7B8DC /* QingmPoetryGame.swift in Sources */,
+				18BD75DD286F1F8F004DF699 /* SolarTermsData.swift in Sources */,
+				6C26672F285EEE60005C0EE8 /* ShareButton.swift in Sources */,
+				6C9BF8B5285C968400BB57A0 /* MainView.swift in Sources */,
+				F87AFE8D2877664500F6638F /* ChongyPoetryGame.swift in Sources */,
+				6CEF7794285E51C500FBEA27 /* LocationView.swift in Sources */,
+				6C9BF8A1285C964D00BB57A0 /* ModelData.swift in Sources */,
+				6C77EC792875146D00C366D6 /* FestivalData.swift in Sources */,
+				18409FDD286DA284006F87E4 /* LightFireworksViewController.swift in Sources */,
+				F87AFE86287739DB00F6638F /* PoetryGameList.swift in Sources */,
+				183C916B287007C800CCFA7A /* ImagePickerController.swift in Sources */,
+				6C77EC86287723C500C366D6 /* SpringPoetryGame.swift in Sources */,
+				18409FDB286DA1D7006F87E4 /* CoupleMeetViewController.swift in Sources */,
+				6C9BF8B9285C968400BB57A0 /* FavoriteButton.swift in Sources */,
+				F87AFE822877349F00F6638F /* MusicPlayer.swift in Sources */,
+				6CDC1DC928621D8400F17095 /* WebEdit.swift in Sources */,
+				6C400D232865B0520047C822 /* ARGameList.swift in Sources */,
+				8024E80F28603D1700F46684 /* View+Extension.swift in Sources */,
+				6C9BF8B8285C968400BB57A0 /* CircleButton.swift in Sources */,
+				6C9BF8BB285C968400BB57A0 /* SolarTermsOnly.swift in Sources */,
+				6C9BF8BC285C968400BB57A0 /* SolarTermsDetail.swift in Sources */,
+				18068CF1286C0C0200D38371 /* 牛郎织女.rcproject in Sources */,
+				6C2B64172862C48100993F7A /* FestivalFavorite.swift in Sources */,
+				183F38CB286D386400F1BDB5 /* 放烟花.rcproject in Sources */,
+				18D86F93286C243F007C08DF /* UIKitActivityIndicatorView.swift in Sources */,
+				6CDC1DC728621D7600F17095 /* WebAdd.swift in Sources */,
+				6C77EC842877239100C366D6 /* Poetry.swift in Sources */,
+				189CBFBA2868329C00F88528 /* ARGameView.swift in Sources */,
+				6C9BF8A0285C964D00BB57A0 /* FestivalContent.swift in Sources */,
+				6C9BF8B7285C968400BB57A0 /* AccountView.swift in Sources */,
+				6C2B64152862C43600993F7A /* FavoriteView.swift in Sources */,
+				6CDC1DCB28621DD600F17095 /* Web.swift in Sources */,
+				6CEF7798285E520F00FBEA27 /* LocationTool.swift in Sources */,
+				6C9BF8A2285C964D00BB57A0 /* Festival.swift in Sources */,
+				6CDC1DC528621D6500F17095 /* WebRow.swift in Sources */,
+				F87AFE8A28775E0D00F6638F /* PoetryGameRow.swift in Sources */,
+				6C9BF8BA285C968400BB57A0 /* SolarTermsList.swift in Sources */,
+				6C400D212865AA6E0047C822 /* ARGameRow.swift in Sources */,
+				18F07A13286B07C7007B4209 /* CoupleMeet.swift in Sources */,
+				18EFCB65286751F400AB8EFE /* Voicebroadcast.swift in Sources */,
+				6C400D1E2865A84D0047C822 /* FavoriteAR.swift in Sources */,
+				6C37D8AC28605A1800A90A5F /* FestivalDetailTag.swift in Sources */,
+				18AB56F6286F4E2200D701EC /* HelpView.swift in Sources */,
+				F87AFE8828773AF400F6638F /* GameView.swift in Sources */,
+				6C9BF8BD285C968400BB57A0 /* FestivalCard.swift in Sources */,
+				6C9BF8C0285C968400BB57A0 /* FestivalDetailView.swift in Sources */,
+				6C9BF8C4285C9A0F00BB57A0 /* Profile.swift in Sources */,
+				6CEF7796285E51FD00FBEA27 /* GeocoderTool.swift in Sources */,
+				183F38CD286D38B900F1BDB5 /* LightFireworks.swift in Sources */,
+				18D86F91286C1BC8007C08DF /* 赛龙舟.rcproject in Sources */,
+				18C9AF40286A016D006AA63B /* DragonBoatRace.swift in Sources */,
+				18409FD9286DA0AF006F87E4 /* DragonBoatRaceViewController.swift in Sources */,
+				6C2B64192862C49300993F7A /* SolarTermsFavorite.swift in Sources */,
+				6C9BF89F285C964D00BB57A0 /* SolarTerms.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6C9BF894285C95BF00BB57A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C9BF895285C95BF00BB57A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C9BF897285C95BF00BB57A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CFestival/Preview Content\"";
+				DEVELOPMENT_TEAM = YWUW376A3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CFestival/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用摄像头进行AR";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用您的定位信息，来进行导航服务";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "添加图片到您的图片库";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeideas.CFestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C9BF898285C95BF00BB57A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CFestival/Preview Content\"";
+				DEVELOPMENT_TEAM = YWUW376A3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CFestival/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "使用摄像头进行AR";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用您的定位信息，来进行导航服务";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "添加图片到您的图片库";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeideas.CFestival;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9BF883285C95BB00BB57A0 /* Build configuration list for PBXProject "CFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9BF894285C95BF00BB57A0 /* Debug */,
+				6C9BF895285C95BF00BB57A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9BF896285C95BF00BB57A0 /* Build configuration list for PBXNativeTarget "CFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9BF897285C95BF00BB57A0 /* Debug */,
+				6C9BF898285C95BF00BB57A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C9BF880285C95BB00BB57A0 /* Project object */;
+}
