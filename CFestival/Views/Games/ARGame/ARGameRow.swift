@@ -32,8 +32,8 @@ struct ARGameRow: View {
         .background(
             Image(favoriteRow.backgroundImage)
                 .resizable()
-                .frame(width: 350, height: 95, alignment: .center)
-                .cornerRadius(30)
+                .frame(width: 320, height: 95, alignment: .center)
+                .cornerRadius(40)
                 .aspectRatio(contentMode: .fill)
                 .opacity(0.5)
         )

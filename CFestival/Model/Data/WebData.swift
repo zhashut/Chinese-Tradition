@@ -35,7 +35,7 @@ class WebData {
   // 获取持久化数据
   func allWebs() -> [Web] {
       guard let data = try? Data(contentsOf: fileURL()) else {
-          return []
+          return webData
       }
       guard let webs = try? PropertyListDecoder().decode([Web].self, from: data) else {
           return []

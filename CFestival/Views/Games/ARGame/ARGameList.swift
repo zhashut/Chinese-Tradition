@@ -11,20 +11,17 @@ struct ARGameList: View {
     @State var isShow: Bool = false
     
     var body: some View {
-        Section {
-            List(favoritearData) { favoritear in
-                Button {
-                    self.isShow = true
-                } label: {
-                    ARGameRow(favoriteRow: favoritear)
-                }
-                .fullScreenCover(isPresented: $isShow) {
-                    ARGameView(selectedAR: favoritear.game)
-                }
+        List(favoritearData) { favoritear in 
+            Button {
+                self.isShow = true
+            } label: {
+                ARGameRow(favoriteRow: favoritear)
             }
-            .listStyle(.inset)
+            .fullScreenCover(isPresented: $isShow) {
+                ARGameView(selectedAR: favoritear.game)
+            }
         }
-        .frame(height: 430)
+            .listStyle(.inset)
     }
 }
 

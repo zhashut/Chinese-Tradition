@@ -12,7 +12,6 @@ struct PoetryGameList: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        Section {
             List(modelData.poetrys) { poetry in
                 Button {
                     isShow = true
@@ -24,8 +23,6 @@ struct PoetryGameList: View {
                 }
             }
             .listStyle(.inset)
-        }
-        .frame(height: 400)
     }
 }
 

@@ -12,3 +12,7 @@ struct Web: Identifiable, Codable {
   var webname: String
   var url: String
 }
+
+let webData = [
+    Web(webname: "MyGithub", url: "https://github.com/2105798885")
+]

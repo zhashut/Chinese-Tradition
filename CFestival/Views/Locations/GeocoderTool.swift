@@ -35,33 +35,8 @@ class GeocoderTool {
         }
     }
 
-    // 对经纬度反向编码
-//    func reverseGeocoderCoordinate(_ coor: CLLocationCoordinate2D, completion:@escaping (String?) -> Void) {
-//        // 对地理经纬度信息进行反向编码
-//        geocoder.reverseGeocodeLocation(CLLocation(latitude: coor.latitude, longitude: coor.longitude)) { places, error in
-//            // 如果错误
-//            if let error = error {
-//                print(error.localizedDescription)
-//                completion(nil)
-//                return
-//            }
-//            // palces为空
-//            guard let places = places else {
-//                completion(nil)
-//                return
-//            }
-//            // 提取places数组中每个PlaceMark对象，取出地址字符串，并构成新数组
-//            let addresses: [String] = places.compactMap { place in
-//                place.name
-//            }
-//
-//          let result: String = addresses[addresses.count - 1]
-//            completion(result)
-//        }
-//    }
-    
-    // 对经纬度反向编码
-    func reverseGeocoderCoordinate(_ coor: CLLocationCoordinate2D, completion:@escaping ([String]?) -> Void) {
+     //对经纬度反向编码
+    func reverseGeocoderCoordinate(_ coor: CLLocationCoordinate2D, completion:@escaping (String?) -> Void) {
         // 对地理经纬度信息进行反向编码
         geocoder.reverseGeocodeLocation(CLLocation(latitude: coor.latitude, longitude: coor.longitude)) { places, error in
             // 如果错误
@@ -79,8 +54,33 @@ class GeocoderTool {
             let addresses: [String] = places.compactMap { place in
                 place.name
             }
-            completion(addresses)
+
+          let result: String = addresses[addresses.count - 1]
+            completion(result)
         }
     }
+    
+    // 对经纬度反向编码
+//    func reverseGeocoderCoordinate(_ coor: CLLocationCoordinate2D, completion:@escaping ([String]?) -> Void) {
+//        // 对地理经纬度信息进行反向编码
+//        geocoder.reverseGeocodeLocation(CLLocation(latitude: coor.latitude, longitude: coor.longitude)) { places, error in
+//            // 如果错误
+//            if let error = error {
+//                print(error.localizedDescription)
+//                completion(nil)
+//                return
+//            }
+//            // palces为空
+//            guard let places = places else {
+//                completion(nil)
+//                return
+//            }
+//            // 提取places数组中每个PlaceMark对象，取出地址字符串，并构成新数组
+//            let addresses: [String] = places.compactMap { place in
+//                place.name
+//            }
+//            completion(addresses)
+//        }
+//    }
     
 }

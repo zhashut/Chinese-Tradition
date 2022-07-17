@@ -37,7 +37,7 @@ struct HelpView: View {
                 .listRowSeparator(.hidden)
             HStack {
                 Image(systemName: "location.fill")
-                Text("https://github.com/2105798885")
+                Text("https://github.com/2105798885/Chinese-Tradition.git")
             }
             
             Divider()

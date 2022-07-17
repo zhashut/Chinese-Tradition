@@ -703,6 +703,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CFestival/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "识中";
 				INFOPLIST_KEY_NSCameraUsageDescription = "使用摄像头进行AR";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用您的定位信息，来进行导航服务";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
@@ -739,6 +740,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CFestival/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "识中";
 				INFOPLIST_KEY_NSCameraUsageDescription = "使用摄像头进行AR";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "使用您的定位信息，来进行导航服务";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
