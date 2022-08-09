@@ -31,16 +31,16 @@ struct LocationView: View {
             DispatchQueue.main.async {
               lat = currentCoor.latitude
               long = currentCoor.longitude
-              GeocoderTool().reverseGeocoderCoordinate(CLLocationCoordinate2D(latitude: lat, longitude: long)) { addresses in
-                    guard let addresses = addresses else {
-                        alertMessage = "定位获取失败！"
-                        showAlert.toggle()
-                        return
-                    }
-                    modelData.profiles.location = addresses
-                }
             }
         }
+        GeocoderTool().reverseGeocoderCoordinate(CLLocationCoordinate2D(latitude: lat, longitude: long)) { addresses in
+                guard let addresses = addresses else {
+                    alertMessage = "定位获取失败！"
+                    showAlert.toggle()
+                    return
+                }
+                modelData.profiles.location = addresses
+            }
       } label: {
           Image(systemName: "location")
       }
